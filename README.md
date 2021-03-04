@@ -14,7 +14,7 @@
 - Keyboard: PS2 Keyboard
 - Resolution: 1366x768
 - Bootloader: OpenCore 0.6.6 RELEASE
-- OS Version: macOS 11.2.1 Big Sur
+- OS Version: macOS 11.2.1 Big Sur + Windows 10 Home Version 20H2 (Dual Boot Same Drive)
 - SMBIOS: MacBookPro15,4
 
 ## What's Working?
