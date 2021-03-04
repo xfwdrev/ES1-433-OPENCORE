@@ -7,9 +7,9 @@
 - Memory: 8GB SK Hynix DDR4 2133 MHz Dual Channel
 - Integrated GPU: Intel HD Graphics 520
 - Audio: Realtek ALC255
-- Storage: Morebeck N100 256GB M.2 SSD , TOSHIBA MK5065GSXF 500GB HDD
+- Storage: Morebeck N100 256GB M.2 SSD , Seagate ST1000 1TB Mobile HDD
 - Ethernet Card: Realtek RTL8168
-- Wireless Card: Intel Dual Band Wireless AC 7265
+- Wireless Card: Intel Dual Band Wireless AC 8265 (8265NGW)
 - Touchpad: ELAN0501 I2C
 - Keyboard: PS2 Keyboard
 - Resolution: 1366x768
@@ -19,14 +19,15 @@
 
 ## What's Working?
 
-- Power Management, idle @500-800MHz
+- Power Management, CPU Management
 - Power Option
 - QE/CI for Intel HD Graphics 520
+- Metal Support Integrated Graphics, 3D Acceleration Enabled
 - WiFi (Had to replace the stock QCA9377 as it is not supported)
 - Brightness (Brightness Keys also using Arrow Keys)
 - Battery Management
 - Ethernet (Realtek RTL8XXX)
-- Trackpad Full Gestures (VoodooPS2Trackpad) - GPIO Buggy always return pin 0x0 so I2C Not Possible. Change to Basic Trackpad Function in BIOS
+- Trackpad Full Gestures (VoodooPS2Trackpad) - GPIO Buggy always return pin 0x0 so I2C Not Working. Change to Basic Trackpad Function in BIOS
 - Keyboard
 - USB 3.0 + USB 2.0 Ports
 - HDMI (Audio and Video Out)
